@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NFCSnap — Custom NFC Google Review Cards for Businesses</title>
+<meta name="description" content="Customised NFC Google review cards with QR codes and countertop stands for shops and businesses in India. ₹499 per kit. Order on WhatsApp.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="w">
+  <a class="logo" href="#top">NFC<b>Snap</b></a>
+  <nav><a href="#how">How it works</a><a href="#faq">FAQ</a><a class="btn small keep" href="#order">Order now</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="w">
+  <div>
+    <h1>Custom NFC Google Review Cards for your shop</h1>
+    <p class="mu">Customers tap their phone or scan a QR code and land straight on your Google review page. Branded with your business name, with a compact countertop stand.</p>
+    <div class="price">₹499 <small>per kit · NFC card + stand + setup help included</small></div>
+    <div class="row"><a class="btn" href="#order">Order your kit</a><a class="btn alt" href="#how">See how it works</a></div>
+    <p class="note">Order in 2 minutes. You submit on WhatsApp; we confirm details with you there.</p>
+  </div>
+  <div aria-label="Sample product illustration">
+    <svg viewBox="0 0 360 300" role="img" aria-label="Countertop stand holding an NFC review card and a QR code">
+      <rect x="0" y="0" width="360" height="300" rx="18" fill="var(--pr2)"/>
+      <path d="M70 262 L290 262 L270 236 L90 236 Z" fill="var(--bd)"/>
+      <rect x="95" y="60" width="170" height="180" rx="14" fill="var(--bg)" stroke="var(--pr)" stroke-width="3"/>
+      <text x="180" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="var(--tx)" font-family="system-ui">Your Business Name</text>
+      <text x="180" y="112" text-anchor="middle" font-size="11" fill="var(--mu)" font-family="system-ui">Tap here to leave a review</text>
+      <g fill="none" stroke="var(--pr)" stroke-width="4" stroke-linecap="round"><path d="M160 150 a28 28 0 0 1 0 34"/><path d="M172 140 a44 44 0 0 1 0 54"/><path d="M184 130 a60 60 0 0 1 0 74"/></g>
+      <circle cx="148" cy="167" r="8" fill="var(--pr)"/>
+      <g transform="translate(205 196)" fill="var(--tx)"><rect width="38" height="38" fill="none" stroke="var(--tx)" stroke-width="2"/><rect x="4" y="4" width="10" height="10"/><rect x="24" y="4" width="10" height="10"/><rect x="4" y="24" width="10" height="10"/><rect x="18" y="18" width="6" height="6"/><rect x="28" y="26" width="6" height="8"/></g>
+      <text x="180" y="285" text-anchor="middle" font-size="10" fill="var(--mu)" font-family="system-ui">Sample illustration — not a working QR</text>
+    </svg>
+  </div>
+</div></section>
+
+<section id="how" class="alt-bg"><div class="w">
+  <h2>How it works</h2>
+  <div class="grid">
+    <div class="card"><div class="num">1</div><b>Customer taps the NFC card</b><p class="mu">They hold their phone near the card on your counter.</p></div>
+    <div class="card"><div class="num">2</div><b>A page opens on their phone</b><p class="mu">It goes straight to your Google review page.</p></div>
+    <div class="card"><div class="num">3</div><b>They leave an honest review</b><p class="mu">Reviews are always the customer's own words.</p></div>
+  </div>
+  <div class="card gap"><b>Prefer QR?</b> Each kit also has a QR code that opens the same page with any phone camera.
+    <p class="note tight">NFC availability and behaviour depend on the customer's phone. Some phones need NFC switched on, and some don't support it. The QR code is the backup.</p>
+  </div>
+</div></section>
+
+<section><div class="w two">
+  <div>
+    <h2>Why shop owners choose it</h2>
+    <ul class="ck"><li>Easy access to your review page</li><li>Customised with your business branding</li><li>NFC tap and QR code options</li><li>Compact countertop display</li><li>Setup and testing assistance</li></ul>
+    <p class="note">NFCSnap makes it easier to reach your review page. It does not guarantee more reviews or better rankings.</p>
+  </div>
+  <div class="card"><b>What's in the ₹499 kit</b>
+    <ul class="ck"><li>1 customised NFC review card</li><li>Countertop stand to hold the card</li><li>QR code for your review link</li><li>Link setup and a test tap</li></ul>
+    <p class="note">The stand is included in the ₹499 price.</p>
+  </div>
+</div></section>
+
+<section id="order" class="alt-bg"><div class="w">
+  <h2>Order your kit</h2>
+  <div class="two">
+    <form id="f" novalidate>
+      <div><label for="biz">Business name *</label><input id="biz" autocomplete="organization"><div class="err" data-e="biz"></div></div>
+      <div class="f2">
+        <div><label for="nm">Your name *</label><input id="nm" autocomplete="name"><div class="err" data-e="nm"></div></div>
+        <div><label for="ph">Mobile number *</label><input id="ph" inputmode="numeric" maxlength="10" placeholder="10-digit number" autocomplete="tel-national"><div class="err" data-e="ph"></div></div>
+      </div>
+      <div><label for="lk">Google review link *</label><input id="lk" inputmode="url" placeholder="https://g.page/r/..."><div class="err" data-e="lk"></div><div class="note">Not sure? See "How do I share my Google review link?" in the FAQ.</div></div>
+      <div class="f2">
+        <div><label for="ct">City / delivery area *</label><input id="ct" autocomplete="address-level2"><div class="err" data-e="ct"></div></div>
+        <div><label for="ty">Business type</label><select id="ty"><option>Shop / retail</option><option>Restaurant / cafe</option><option>Salon / clinic</option><option>Other</option></select></div>
+      </div>
+      <div>
+        <label for="q">Quantity (kits)</label>
+        <div class="qty"><button type="button" id="mi" aria-label="Decrease quantity">−</button><input id="q" value="1" inputmode="numeric"><button type="button" id="pl" aria-label="Increase quantity">+</button></div>
+        <div class="err" data-e="q"></div>
+      </div>
+      <div><label for="nt">Notes (optional)</label><textarea id="nt" rows="2" placeholder="Colours, text on card, etc."></textarea></div>
+      <div class="ph">Logo: we don't upload files on this page. After the WhatsApp chat opens, attach your logo there (PNG or JPG).</div>
+      <div class="tot"><span>Total (<span id="qn">1</span> × ₹<span id="up">499</span>)</span><span id="tt">₹499</span></div>
+      <button class="btn wa" type="submit">Submit Order on WhatsApp</button>
+      <div class="note">No payment is taken on this page. We confirm delivery charges and payment details with you on WhatsApp. Your details are only used to build the message you send.</div>
+    </form>
+    <div class="card"><b>What happens next</b>
+      <ol class="mu"><li>WhatsApp opens with your order details filled in.</li><li>You send the message and attach your logo.</li><li>We confirm design, delivery and payment with you.</li><li>We set up and test your link before dispatch.</li></ol>
+    </div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="w">
+  <h2>FAQ</h2>
+  <details><summary>What is an NFC review card?</summary><p>A card with a small NFC chip. When a phone is held near it, the phone opens a web page, in this case your Google review page.</p></details>
+  <details><summary>How does a customer use it?</summary><p>They tap their phone on the card, or scan the QR code with their camera. Your review page opens and they can write a review.</p></details>
+  <details><summary>Will it work on every phone?</summary><p>No. Most recent smartphones support NFC, but some don't, and some need NFC turned on in settings. That's why every kit also has a QR code.</p></details>
+  <details><summary>What if NFC is unavailable?</summary><p>The customer can scan the QR code instead. It works with any phone camera.</p></details>
+  <details><summary>Can I add my business logo?</summary><p>Yes. Send your logo on WhatsApp after you submit your order.</p></details>
+  <details><summary>How do I share my Google review link?</summary><p>Open your Google Business Profile, choose "Get more reviews" or "Share review form", and copy the link. Paste it in the order form.</p></details>
+  <details><summary>How long does setup take?</summary><p>[Placeholder: add your real timeline, e.g. production and delivery days]. We'll confirm it on WhatsApp.</p></details>
+  <details><summary>How can I contact NFCSnap?</summary><p>Use the WhatsApp button below or email <span id="em1"></span>.</p></details>
+  <details><summary>What is included in the ₹499 kit?</summary><p>One customised NFC review card with its own countertop stand, a QR code, and link setup with a test tap.</p></details>
+</div></section>
+
+<section class="alt-bg"><div class="w">
+  <h2>Talk to us</h2>
+  <div class="row flush"><a class="btn wa" id="wa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn alt" id="em" href="#">Email us</a></div>
+  <p class="note">No customer reviews or numbers are shown yet. We'll add real ones once we have them.</p>
+</div></section>
+</main>
+
+<footer><div class="w">
+  <p><a href="#">Delivery policy</a><a href="#">Return policy</a><a href="#">Privacy policy</a><a href="#">Terms</a> <span class="note">(placeholder links, add your real pages)</span></p>
+  <p>NFCSnap is an independent service and is not affiliated with or endorsed by Google. Google is a trademark of Google LLC.</p>
+</div></footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
